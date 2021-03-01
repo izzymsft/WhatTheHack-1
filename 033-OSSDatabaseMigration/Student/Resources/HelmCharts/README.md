@@ -66,7 +66,7 @@ CREATE DATABASE wth;
 
 -- Create user contosoapp that would own the application schema
 
- CREATE ROLE CONTOSOAPP WITH LOGIN NOSUPERUSER INHERIT CREATEDB CREATEROLE NOREPLICATION PASSWORD 'OCPHack8';
+CREATE ROLE CONTOSOAPP WITH LOGIN NOSUPERUSER INHERIT CREATEDB CREATEROLE NOREPLICATION PASSWORD 'OCPHack8';
 
 -- Show tables in wth database - should be empty now
 
@@ -122,7 +122,7 @@ kubectl -n mysql get pods
 
 # Use this to connect to the database server
 
-kubectl -n mysql exec deploy/mysql -it -- /usr/bin/mysql -u root -pOCPHack8
+kubectl -n mysql exec deploy/mysql -it -- /usr/bin/mysql -u root -p OCPHack8
 
 ```
 
