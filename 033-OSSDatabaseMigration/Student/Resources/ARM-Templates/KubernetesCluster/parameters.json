@@ -18,16 +18,16 @@
         "value": 64
       },
       "systemPoolNodeCount": {
-        "value": 2
+        "value": 1
       },
       "systemPoolNodeType": {
-        "value": "Standard_D4s_v3"
+        "value": "Standard_B4ms"
       },
       "agentPoolNodeCount": {
-        "value": 3
+        "value": 1
       },
       "agentPoolNodeType": {
-        "value": "Standard_D8s_v3"
+        "value": "Standard_B4ms"
       },
       "location": {
         "value": "westus"
